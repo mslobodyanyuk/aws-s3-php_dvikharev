@@ -46,17 +46,17 @@ How to set up an S3 bucket and send a file there.
 
 [(4:12)]( https://youtu.be/u17gX8Eajdc?t=252 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/1.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/1.png )
 
 [(5:00)]( https://youtu.be/u17gX8Eajdc?t=300 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/2.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/2.png )
 
 [(6:15)]( https://youtu.be/u17gX8Eajdc?t=375 ) `Create Bucket`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/3.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/3.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/4.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/4.png )
 
 [(6:40)]( https://youtu.be/u17gX8Eajdc?t=400 ) `Create User` in `IAM`.
 
@@ -65,7 +65,7 @@ One of the most important points, which they talk about, is to immediately check
 
 [(8:05)]( https://youtu.be/u17gX8Eajdc?t=485 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/5.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/5.png )
 
 [(8:25)]( https://youtu.be/u17gX8Eajdc?t=505 ) `Next: Tags`. (- Just Created a user) which DOES NOT have any access, BUT it suits us for now.
 
@@ -73,11 +73,11 @@ One of the most important points, which they talk about, is to immediately check
 
 [(8:35)]( https://youtu.be/u17gX8Eajdc?t=515 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/6.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/6.png )
 
 [(8:40)]( https://youtu.be/u17gX8Eajdc?t=520 ) `Create User`. `Access key ID`, `Secret access key`- which we need to manage the system in `.env`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/7.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/7.png )
 
 - Access key ID
 												
@@ -91,27 +91,27 @@ AWS_SECRET=
 [(9:10)]( https://youtu.be/u17gX8Eajdc?t=550 ) After leaving this window, the `Secret access key` is no longer shown in the system. It is shown at the moment of registration, and we can download it as a file.
 User created - Copied, OR then you will have to Create a new `Secret access key`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/8.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/8.png )
 
 [(9:45)]( https://youtu.be/u17gX8Eajdc?t=585 ) `Close`.
 
 [(10:06)]( https://youtu.be/u17gX8Eajdc?t=606 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/9.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/9.png )
 
 [(10:25)]( https://youtu.be/u17gX8Eajdc?t=625 ) `Objects can be public`. - Some objects will have the possibility of public access.
 
 [(10:45)]( https://youtu.be/u17gX8Eajdc?t=645 ) `Objects`. The first tab is the files themselves.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/10.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/10.png )
 
 [(10:55)]( https://youtu.be/u17gX8Eajdc?t=655 ) `Properties`. These are the properties of this cart. Sub-services.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/11.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/11.png )
 
 [(11:10)]( https://youtu.be/u17gX8Eajdc?t=670 ) `Transfer acceleration`. - IF included, firstly, there will be additional money to ask, BUT this thing is included, it significantly speeds up the delivery of content.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/12.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/12.png )
  
 [(12:50)]( https://youtu.be/u17gX8Eajdc?t=770 )
 
@@ -127,7 +127,7 @@ User created - Copied, OR then you will have to Create a new `Secret access key`
 
 [(13:40)]( https://youtu.be/u17gX8Eajdc?t=820 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/13.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/13.png )
 
 [(14:30)]( https://youtu.be/u17gX8Eajdc?t=870 ) `Access control list( ACL )`. 
 
@@ -137,23 +137,23 @@ I can Deny myself. Add other users. `Public access` is for those who use the Buc
 
 [(15:44)]( https://youtu.be/u17gX8Eajdc?t=944 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/14.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/14.png )
 
 [(15:55)]( https://youtu.be/u17gX8Eajdc?t=955 ) Let's Add a `Bucket Policy`. `Bucket Policy` is needed so that we can, with the help of our user, using his `keys`, Upload a file to this Bucket. - Configuration in `json`-format: You can do it by hand, you can use a `Policy generator`.
 
 [(16:05)]( https://youtu.be/u17gX8Eajdc?t=965 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/15.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/15.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/16.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/16.png )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/17.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/17.png )
 
 [(16:55)]( https://youtu.be/u17gX8Eajdc?t=1015 ) We are interested in 2 Tasks: `PutObject`, `PutObjectAcl`. That is, Set the object, and Give it access rights. NOT `private`, but `public-read`.
 
 [(17:35)]( https://youtu.be/u17gX8Eajdc?t=1055 ) `Add Statement`.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/18.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/18.png )
 
 THAT'S ALL: our user, we allow him actions, right here.
 
@@ -182,27 +182,27 @@ THAT'S ALL: our user, we allow him actions, right here.
 }
 ```
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/19.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/19.png )
 
 [(18:40)]( https://youtu.be/u17gX8Eajdc?t=1120 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/terminal/1.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/terminal/1.png )
 
 [(19:05)]( https://youtu.be/u17gX8Eajdc?t=1145 ) Time taken - 296ms.
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/20.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/20.png )
 
 [(20:00)]( https://youtu.be/u17gX8Eajdc?t=1200 ) What `Amazon` itself gives us in response to our `PUT` command:
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/terminal/2.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/terminal/2.png )
 
 [(21:15)]( https://youtu.be/u17gX8Eajdc?t=1275 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/21.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/21.png )
 
 [(21:42)]( https://youtu.be/u17gX8Eajdc?t=1302 )
 
-![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/master/public/images/aws/22.png )
+![screenshot of sample]( https://github.com/mslobodyanyuk/aws-s3-php_dvikharev/blob/main/public/images/aws/22.png )
  
 #### Useful links:
 
